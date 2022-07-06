@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    margin: 15px 0;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+a{
+    background-color: #ff5b5b;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Hero Section Start */
+
+.hero-section{
+    background: url(./images/donation7.jpg) no-repeat;
+    background-size: cover;
+    padding: 300px 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+.main h1{
+    font-size: 50px;
+}
+
+/* Hero Section End */
+
+/* Donate Section Start */
+
+.donate-section{
+    width: 1250px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.d-today h1{
+    font-size: 40px;
+}
+
+.donation-box h1{
+    background-color: #fafafa;
+    color: #6f6f6f;
+    display: inline-block;
+    padding: 40px 30px;
+    border-radius: 10px;
+    margin: 40px 10px;
+}
+.donation-box .active-box{
+    background-color: #ffeeee ;
+    color: #ff7878;
+    border: 2px solid #ff7878;
+}
+
+.input-amount input{
+    width: 700px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    outline: none;
+    text-align: center;
+    font-size: 17px;
+    color: #bdbdbd;
+    padding: 10px 0;
+    margin-bottom: 25px;
+}
+
+/* Donate Section End */
+
+/*Plan Section Start */
+
+.plan-section{
+    width: 1250px;
+    margin: 100px auto;
+}
+
+.plan-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.our-box{
+    display: flex;
+}
+
+.p-icon img{
+    margin-bottom: 25px;
+}
+
+.plan-box{
+    width: 33%;
+    padding: 50px 25px;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+.plan-one{
+    background-color: #edf5f6;
+}
+.plan-two{
+    background-color: #ffeeee;
+}
+.plan-three{
+   background-color: #fff4d6;
+}
+
+/*Plan Section End */
+
+/* Help Section Start */
+
+.help-section{
+    width: 1250px;
+    margin: 50px auto;
+}
+
+.our-help{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.helpless-people{
+    display: flex;
+}
+
+.help-tab img{
+    width: 400px;
+    height: 250px;
+}
+
+.help-tab{
+    width: 33%;
+    background-color: #f2f6f8;
+    margin: 0 15px;
+    border-radius: 8px;
+}
+
+.h-content{
+    padding: 30px 15px;
+}
+
+.h-content h2{
+    font-weight: 400;
+}
+
+/* Help Section End */
+
+/* Update Section Start */
+
+.get-update{
+    width: 1250px;
+    margin: 100px  auto;
+    text-align: center;
+}
+
+.update-email{
+    background-color: #fff4d6;
+    width: 50%;
+    margin: 30px auto 60px;
+    padding: 60px ;
+}
+
+.update-email input{
+    width: 300px;
+    background-color: #d9d9d9;
+    padding: 14px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 5px 0 0 5px;
+}
+
+.update-email a{
+    padding: 12px 50px;
+    border-radius: 0;
+    margin-left: -5px;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Update Section End */
+
+/* Footer Section Start */
+
+.footer{
+    background-color: #0b0d17;
+    padding: 40px;
+    text-align: center;
+}
+
+.footer h1{
+    font-family: 'Lobster', cursive;
+    color: #ff5b5b;
+    font-size: 50px;
+    font-weight: 400;
+}
+.footer p{
+    color: #ddd;
+}
+
+/* Footer Section End */
+
+
+
